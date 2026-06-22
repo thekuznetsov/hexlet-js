@@ -1,3 +1,3 @@
-import _ from 'lodash';
+import runProject from "./src/index.js";
 
-console.log(_.last(['one', 'two']));
+runProject();
