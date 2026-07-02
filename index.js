@@ -1,3 +1,10 @@
-import runProject from "./src/index.js";
+const capitalize = (text) => {
+  if (text === "") {
+    return "";
+  }
+  const firstChar = text[0].toUpperCase();
+  const restSubstring = text.slice(1);
+  return `${firstChar}${restSubstring}`;
+};
 
-runProject();
+export default capitalize;
